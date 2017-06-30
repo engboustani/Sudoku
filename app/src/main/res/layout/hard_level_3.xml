@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hard_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.azad.sudoku.HardLevel">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/row1">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H11"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H12"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H13"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H14"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H15"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H16"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="2" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H17"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="7" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H18"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="5" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H19"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H21"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H22"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="1" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H23"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="8" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H24"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H25"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="9" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H26"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H27"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H28"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H29"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H31"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H32"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H33"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:layout_width="30dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H34"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H35"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H36"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H37"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H38"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H39"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H41"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="4" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H42"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="9" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H43"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H44"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H45"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H46"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H47"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H48"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H49"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H51"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H52"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="3" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H53"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H54"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H55"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H56"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H57"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H58"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H59"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H61"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H62"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H63"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H64"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="7" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H65"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H66"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H67"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="2" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H68"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H69"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H71"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H72"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H73"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H74"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H75"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="3" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H76"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H77"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H78"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H79"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H81"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="7" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H82"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H83"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H84"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H85"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H86"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H87"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H88"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H89"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H91"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="5" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H92"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H93"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H94"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H95"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H96"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H97"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H98"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true"
+                android:text="8" />
+
+
+            <EditText
+                android:ems="10"
+                android:id="@+id/H99"
+                android:width="1dp"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:editable="true" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CheckButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="CheckButton" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CheckButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/easychronometer" />
+
+</RelativeLayout>
